@@ -1,0 +1,37 @@
+.container{
+    width: 1280px;
+}
+
+.color_bg_whitesmoke{
+    background: whitesmoke;
+}
+.color_bg_white{
+    background: white;
+}
+thead{
+    width: 100%;
+}
+
+
+.navbar-right{
+    margin-right: 0;
+}
+.navbar-brand{
+    padding: 15px 0px;
+}
+
+.form-control-feedback{
+    top: 8px;
+    right: 8px;
+}
+
+header{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+}
