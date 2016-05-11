@@ -6,6 +6,6 @@
  * Time: 02:33 PM
  */
 function sanatize($data){
-    return mysql_real_escape_string($data);
+    return mysqli_real_escape_string($data);
 }
 ?>

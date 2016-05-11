@@ -8,11 +8,12 @@
 $conn_error='could not connect to database';
 
 $mysql_host='sql6.freemysqlhosting.net';
-$name='sql6112808';
-$mysql_pass='PBAStaTlUu';
-$mysql_db='sql6112808';
+$name='sql6119016';
+$mysql_pass='APliKtnLxx';
+$mysql_db='sql6119016';
+$con=mysqli_connect($mysql_host,$name,$mysql_pass,$mysql_db);
 
-if(!mysql_connect($mysql_host,$name,$mysql_pass)||!mysql_select_db($mysql_db)) {
+if(mysqli_connect_errno()) {
 
 
     echo '<script>alert("Could not Connect to database!");</script>';
